@@ -1099,5 +1099,203 @@
   "context": [""]
   }
 
+{
+      "tag":"2010_campeao",
+      "patterns":["Qual foi o campeao da Copa do Mundo de 2010?", "Quem e o campeao da Copa de 2010", "o campeao da Copa de 2010 foi que selecao?", "Quem ganhou em 2010?"],
+      "responses":["O campeao da Copa do Mundo de 2010 foi a Espanha."],
+      "context": [""]
+  },
+  {
+      "tag":"2010_segundo",
+      "patterns":["Qual foi o vice campeao da Copa do Mundo de 2010?", "Quem e o vice campeao da Copa de 2010", "o vice campeao da Copa de 2010 foi que selecao?"],
+      "responses":["O vice campeao da Copa do Mundo de 2010 foi o Paises Baixos."],
+      "context": [""]
+  },
+  {
+      "tag":"2010_terceiro",
+      "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 2010?", "Quem e o terceiro colocado da Copa de 2010", "o terceiro colocado da Copa de 2010 foi que selecao?"],
+      "responses":["O terceiro colocado da Copa do Mundo de 2010 foi a Alemanha."],
+      "context": [""]
+  },
+  {
+      "tag":"2010_quarto",
+      "patterns":["Qual foi o quarto colocado da Copa do Mundo de 2010?", "Quem e o quarto colocado da Copa de 2010", "o quarto colocado da Copa de 2010 foi que selecao?"],
+      "responses":["O quarto colocado da Copa do Mundo de 2010 foi o Uruguai."],
+      "context": [""]
+  },
+  {
+    "tag":"2010_gols_marcados",
+    "patterns":["Quantos gols foram marcados na Copa do Mundo de 2010?", "Quantos gols teve na Copa de 2010?"],
+    "responses":["Na Copa do Mundo de 2010 foram marcados 145 gols."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_selecoes",
+    "patterns":["Quantas selecoes jogaram a Copa do Mundo de 2010?", "Quantos times jogaram a Copa de 2010?", "Quantos paises disputaram a Copa de 2010?"],
+    "responses":["A Copa do Mundo de 2010 foi disputada por 32 selecoes."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_partidas",
+    "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 2010?", "Quantas partidas foram jogadas na Copa de 2010"],
+    "responses":["Na Copa do Mundo de 2010 foram disputadas 64 partidas."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_publico",
+    "patterns":["Qual foi o publico total da Copa do Mundo de 2010?", "Quanto foi o publico da Copa de 2010?"],
+    "responses":["A Copa do Mundo de 2010 teve 3 178 856 espectadores em seus jogos."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_artilheiro",
+    "patterns":["Qual foi o artilheiro da Copa do Mundo de 2010?", "Quem e o artilheiro da Copa de 2010", "o artilheiro da Copa de 2010 foi que jogador?"],
+    "responses":["O artilheiro da Copa do Mundo de 2010 foram: Thomas Muller, David Villa, Wesley Sneijder e Diego Forlan, todos com 5 gols."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_pais_sede",
+    "patterns":["Qual foi o pais sede da Copa do Mundo de 2010?", "Quem e pais sede da Copa de 2010", "o pais que recebeu a Copa de 2010 foi que selecao?"],
+    "responses":["O pais sede da Copa do Mundo de 2010 foi a Africa do Sul."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_menosvazado",
+    "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2010?", "Quem e goleiro menos vazado da Copa de 2010", "o goleiro menos vazado da Copa de 2010 foi que goleiro?"],
+    "responses":["O goleiro menos vazado da Copa do Mundo de 2010 foi o Iker Casillas pela Espanha"],
+    "context": [""]
+  },
+  {
+    "tag":"2014_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 2014?", "Quem e o campeao da Copa de 2014", "o campeao da Copa de 2014 foi que selecao?", "Quem ganhou em 2014?"],
+    "responses":["O campeao da Copa do Mundo de 2014 foi a Alemanha."],
+    "context": [""]
+},
+{
+    "tag":"2014_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 2014?", "Quem e o vice campeao da Copa de 2014", "o vice campeao da Copa de 2014 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 2014 foi a Argentina."],
+    "context": [""]
+},
+{
+    "tag":"2014_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 2014?", "Quem e o terceiro colocado da Copa de 2014", "o terceiro colocado da Copa de 2014 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 2014 foi o Paises Baixos."],
+    "context": [""]
+},
+{
+    "tag":"2014_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 2014?", "Quem e o quarto colocado da Copa de 2014", "o quarto colocado da Copa de 2014 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 2014 foi a Brasil."],
+    "context": [""]
+},
+{
+  "tag":"2014_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 2014?", "Quantos gols teve na Copa de 2014?"],
+  "responses":["Na Copa do Mundo de 2014 foram marcados 171 gols."],
+  "context": [""]
+},
+{
+  "tag":"2014_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 2014?", "Quantos times jogaram a Copa de 2014?", "Quantos paises disputaram a Copa de 2014?"],
+  "responses":["A Copa do Mundo de 2014 foi disputada por 32 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"2014_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 2014?", "Quantas partidas foram jogadas na Copa de 2014"],
+  "responses":["Na Copa do Mundo de 2014 foram disputadas 64 partidas."],
+  "context": [""]
+},
+{
+  "tag":"2014_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 2014?", "Quanto foi o publico da Copa de 2014?"],
+  "responses":["A Copa do Mundo de 2014 teve 3 429 873 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"2014_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 2014?", "Quem e o artilheiro da Copa de 2014", "o artilheiro da Copa de 2014 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 2014 foi o Colombiano James Rodriguez com 6 gols."],
+  "context": [""]
+},
+{
+  "tag":"2014_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 2014?", "Quem e pais sede da Copa de 2014", "o pais que recebeu a Copa de 2014 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 2014 foi o Brasil."],
+  "context": [""]
+},
+{
+  "tag":"2014_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2014?", "Quem e goleiro menos vazado da Copa de 2014", "o goleiro menos vazado da Copa de 2014 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 2014 foi o Manuel Neuer"],
+  "context": [""]
+},
+  {
+    "tag":"2018_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 2018?", "Quem e o campeao da Copa de 2018", "o campeao da Copa de 2018 foi que selecao?", "Quem ganhou em 2018?"],
+    "responses":["O campeao da Copa do Mundo de 2018 foi a Franca."],
+    "context": [""]
+},
+{
+    "tag":"2018_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 2018?", "Quem e o vice campeao da Copa de 2018", "o vice campeao da Copa de 2018 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 2018 foi a Croacia."],
+    "context": [""]
+},
+{
+    "tag":"2018_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 2018?", "Quem e o terceiro colocado da Copa de 2018", "o terceiro colocado da Copa de 2018 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 2018 foi a Belgica."],
+    "context": [""]
+},
+{
+    "tag":"2018_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 2018?", "Quem e o quarto colocado da Copa de 2018", "o quarto colocado da Copa de 2018 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 2018 foi a Inglaterra."],
+    "context": [""]
+},
+{
+  "tag":"2018_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 2018?", "Quantos gols teve na Copa de 2018?"],
+  "responses":["Na Copa do Mundo de 2018 foram marcados 169 gols."],
+  "context": [""]
+},
+{
+  "tag":"2018_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 2018?", "Quantos times jogaram a Copa de 2018?", "Quantos paises disputaram a Copa de 2018?"],
+  "responses":["A Copa do Mundo de 2018 foi disputada por 32 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"2018_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 2018?", "Quantas partidas foram jogadas na Copa de 2018"],
+  "responses":["Na Copa do Mundo de 2018 foram disputadas 64 partidas."],
+  "context": [""]
+},
+{
+  "tag":"2018_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 2018?", "Quanto foi o publico da Copa de 2018?"],
+  "responses":["A Copa do Mundo de 2018 teve 3 031 768 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"2018_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 2018?", "Quem e o artilheiro da Copa de 2018", "o artilheiro da Copa de 2018 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 2018 foi o Ingles Harry Kane com 6 gols."],
+  "context": [""]
+},
+{
+  "tag":"2018_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 2018?", "Quem e pais sede da Copa de 2018", "o pais que recebeu a Copa de 2018 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 2018 foi a Russia."],
+  "context": [""]
+},
+{
+  "tag":"2018_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2018?", "Quem e goleiro menos vazado da Copa de 2018", "o goleiro menos vazado da Copa de 2018 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 2018 foi o Thibaut Courtois da Belgica"],
+  "context": [""]
+   }
 ]
 }
