@@ -1297,5 +1297,137 @@
   "responses":["O goleiro menos vazado da Copa do Mundo de 2018 foi o Thibaut Courtois da Belgica"],
   "context": [""]
    }
+{
+  "tag":"2002_campeao",
+  "patterns":["Qual foi o campeao da Copa do Mundo de 2002?", "Quem e o campeao da Copa de 2002", "o campeao da Copa de 2002 foi que selecao?", "Quem ganhou em 2002?"],
+  "responses":["O campeao da Copa do Mundo de 2002 foi o Brasil."],
+  "context": [""]
+},
+{
+  "tag":"2002_segundo",
+  "patterns":["Qual foi o vice campeao da Copa do Mundo de 2002?", "Quem e o vice campeao da Copa de 2002", "o vice campeao da Copa de 2002 foi que selecao?"],
+  "responses":["O vice campeao da Copa do Mundo de 2002 foi a Alemanha."],
+  "context": [""]
+},
+{
+  "tag":"2002_terceiro",
+  "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 2002?", "Quem e o terceiro colocado da Copa de 2002", "o terceiro colocado da Copa de 2002 foi que selecao?"],
+  "responses":["O terceiro colocado da Copa do Mundo de 2002 foi a Turquia."],
+  "context": [""]
+},
+{
+  "tag":"2002_quarto",
+  "patterns":["Qual foi o quarto colocado da Copa do Mundo de 2002?", "Quem e o quarto colocado da Copa de 2002", "o quarto colocado da Copa de 2002 foi que selecao?"],
+  "responses":["O quarto colocado da Copa do Mundo de 2002 foi a Coreia do Sul."],
+  "context": [""]
+},
+{
+"tag":"2002_gols_marcados",
+"patterns":["Quantos gols foram marcados na Copa do Mundo de 2002?", "Quantos gols teve na Copa de 2002?"],
+"responses":["Na Copa do Mundo de 2002 foram marcados 161 gols."],
+"context": [""]
+},
+{
+"tag":"2002_selecoes",
+"patterns":["Quantas selecoes jogaram a Copa do Mundo de 2002?", "Quantos times jogaram a Copa de 2002?", "Quantos paises disputaram a Copa de 2002?"],
+"responses":["A Copa do Mundo de 2002 foi disputada por 32 selecoes."],
+"context": [""]
+},
+{
+"tag":"2002_partidas",
+"patterns":["Quantas partidas foram disputadas na Copa do Mundo de 2002?", "Quantas partidas foram jogadas na Copa de 2002"],
+"responses":["Na Copa do Mundo de 2002 foram disputadas 64 partidas."],
+"context": [""]
+},
+{
+"tag":"2002_publico",
+"patterns":["Qual foi o publico total da Copa do Mundo de 2002?", "Quanto foi o publico da Copa de 2002?"],
+"responses":["A Copa do Mundo de 2002 teve 2 705 197 espectadores em seus jogos."],
+"context": [""]
+},
+{
+"tag":"2002_artilheiro",
+"patterns":["Qual foi o artilheiro da Copa do Mundo de 2002?", "Quem e o artilheiro da Copa de 2002", "o artilheiro da Copa de 2002 foi que jogador?"],
+"responses":["O artilheiro da Copa do Mundo de 2002 foi o brasileiro Ronaldo Fenomeno com 8 gols."],
+"context": [""]
+},
+{
+"tag":"2002_pais_sede",
+"patterns":["Qual foi o pais sede da Copa do Mundo de 2002?", "Quem e pais sede da Copa de 2002", "o pais que recebeu a Copa de 2002 foi que selecao?"],
+"responses":["O pais sede da Copa do Mundo de 2002 foi a Coreia do Sul."],
+"context": [""]
+},
+{
+"tag":"2002_menosvazado",
+"patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2002?", "Quem e goleiro menos vazado da Copa de 2002", "o goleiro menos vazado da Copa de 2002 foi que goleiro?"],
+"responses":["O goleiro menos vazado da Copa do Mundo de 2002 foi o Oliver Kahn pela Alemanha"],
+"context": [""]
+},
+{
+    "tag":"2006_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 2006?", "Quem e o campeao da Copa de 2006", "o campeao da Copa de 2006 foi que selecao?", "Quem ganhou em 2006?"],
+    "responses":["O campeao da Copa do Mundo de 2006 foi a Italia."],
+    "context": [""]
+},
+{
+    "tag":"2006_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 2006?", "Quem e o vice campeao da Copa de 2006", "o vice campeao da Copa de 2006 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 2006 foi a Franca."],
+    "context": [""]
+},
+{
+    "tag":"2006_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 2006?", "Quem e o terceiro colocado da Copa de 2006", "o terceiro colocado da Copa de 2006 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 2006 foi a Alemanha."],
+    "context": [""]
+},
+{
+    "tag":"2006_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 2006?", "Quem e o quarto colocado da Copa de 2006", "o quarto colocado da Copa de 2006 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 2006 foi o Portugal."],
+    "context": [""]
+},
+{
+  "tag":"2006_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 2006?", "Quantos gols teve na Copa de 2006?"],
+  "responses":["Na Copa do Mundo de 2006 foram marcados 147 gols."],
+  "context": [""]
+},
+{
+  "tag":"2006_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 2006?", "Quantos times jogaram a Copa de 2006?", "Quantos paises disputaram a Copa de 2006?"],
+  "responses":["A Copa do Mundo de 2006 foi disputada por 32 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"2006_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 2006?", "Quantas partidas foram jogadas na Copa de 2006"],
+  "responses":["Na Copa do Mundo de 2006 foram disputadas 64 partidas."],
+  "context": [""]
+},
+{
+  "tag":"2006_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 2006?", "Quanto foi o publico da Copa de 2006?"],
+  "responses":["A Copa do Mundo de 2006 teve 3 359 439 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"2006_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 2006?", "Quem e o artilheiro da Copa de 2006", "o artilheiro da Copa de 2006 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 2006 foi o Miroslav Klose com 5 gols."],
+  "context": [""]
+},
+{
+  "tag":"2006_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 2006?", "Quem e pais sede da Copa de 2006", "o pais que recebeu a Copa de 2006 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 2006 foi a Alemanha."],
+  "context": [""]
+},
+{
+  "tag":"2006_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2006?", "Quem e goleiro menos vazado da Copa de 2006", "o goleiro menos vazado da Copa de 2006 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 2006 foi o Gianluigi Buffon pela Italia"],
+  "context": [""]
+  }
 ]
 }
