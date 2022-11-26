@@ -1,0 +1,1433 @@
+{"intents": [
+
+  {
+    "tag": "welcome",
+    "patterns": ["Oi", "bom dia", "boa tarde", "boa noite", "Ola"],
+    "responses": ["Ola, eu sou o Copa Info BOT, com o que posso te ajudar hoje?", "Oi, eu sou o Copa Info BOT, como posso te ajudar?"],
+    "context": [""]
+  },
+  {
+    "tag": "creator",
+    "patterns": ["Quem te criou?", "Quem e seu criador?", "Qual empresa te fez"],
+    "responses": ["Meu criador é o conjunto MEGA.ZEVI (Marcelo, Gabriel Abreu, Gabriel Gonzaga, Ze Pedro e Virgilio"],
+    "context": [""]
+  },
+  {
+    "tag": "who_are_you",
+    "patterns": ["qual seu nome?", "quem e você?", "como você chama?", "nome?"],
+    "responses": ["Eu sou o melhor bot sobre futebol, meu nome e Copa Info BOT."],
+    "context": [""]
+  },
+  {
+    "tag": "censored",
+    "patterns": ["vai se fuder", "otario", "chato", "vai pro inferno", "vai tomar no cu", "filho da puta"],
+    "responses": ["Que isso rapaz, calma ai!"],
+    "context": [""]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["obrigado", "obrigada", "valeu", "obrigada pela ajuda", "muito obrigada", "muito obrigado"],
+    "responses": ["Por nada, volte sempre!", "Espero que eu tenha te ajudado."],
+    "context": [""]
+  },
+  {
+    "tag": "anything_else",
+    "patterns": [],
+    "responses": ["Desculpa, nao entendi o que você quis dizer", "Entendi nada do que você disse"],
+    "context": [""]
+  },
+    {
+        "tag":"1930_campeao",
+        "patterns":["Qual foi o campeao da Copa do Mundo de 1930?", "Quem e o campeao da Copa de 1930", "o campeao da Copa de 1930 foi que selecao?", "Quem ganhou em 1930?"],
+        "responses":["O campeao da Copa do Mundo de 1930 foi o Uruguai."],
+        "context": [""]
+    },
+    {
+        "tag":"1930_segundo",
+        "patterns":["Qual foi o vice campeao da Copa do Mundo de 1930?", "Quem e o vice campeao da Copa de 1930", "o vice campeao da Copa de 1930 foi que selecao?"],
+        "responses":["O vice campeao da Copa do Mundo de 1930 foi a Argentina."],
+        "context": [""]
+    },
+    {
+        "tag":"1930_terceiro",
+        "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1930?", "Quem e o terceiro colocado da Copa de 1930", "o terceiro colocado da Copa de 1930 foi que selecao?"],
+        "responses":["O terceiro colocado da Copa do Mundo de 1930 foi o USA."],
+        "context": [""]
+    },
+    {
+        "tag":"1930_quarto",
+        "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1930?", "Quem e o quarto colocado da Copa de 1930", "o quarto colocado da Copa de 1930 foi que selecao?"],
+        "responses":["O quarto colocado da Copa do Mundo de 1930 foi a Iugoslavia."],
+        "context": [""]
+    },
+    {
+      "tag":"1930_gols_marcados",
+      "patterns":["Quantos gols foram marcados na Copa do Mundo de 1930?", "Quantos gols teve na Copa de 1930?"],
+      "responses":["Na Copa do Mundo de 1930 foram marcados 70 gols."],
+      "context": [""]
+    },
+    {
+      "tag":"1930_selecoes",
+      "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1930?", "Quantos times jogaram a Copa de 1930?", "Quantos paises disputaram a Copa de 1930?"],
+      "responses":["A Copa do Mundo de 1930 foi disputada por 13 selecoes."],
+      "context": [""]
+    },
+    {
+      "tag":"1930_partidas",
+      "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1930?", "Quantas partidas foram jogadas na Copa de 1930"],
+      "responses":["Na Copa do Mundo de 1930 foram disputadas 18 partidas."],
+      "context": [""]
+    },
+    {
+      "tag":"1930_publico",
+      "patterns":["Qual foi o publico total da Copa do Mundo de 1930?", "Quanto foi o publico da Copa de 1930?"],
+      "responses":["A Copa do Mundo de 1930 teve 434000 espectadores em seus jogos."],
+      "context": [""]
+    },
+    {
+      "tag":"1930_artilheiro",
+      "patterns":["Qual foi o artilheiro da Copa do Mundo de 1930?", "Quem e o artilheiro da Copa de 1930", "o artilheiro da Copa de 1930 foi que jogador?"],
+      "responses":["O artilheiro da Copa do Mundo de 1930 foi o argentino Guillermo Stabile com 8 gols."],
+      "context": [""]
+    },
+    {
+      "tag":"1930_pais_sede",
+      "patterns":["Qual foi o pais sede da Copa do Mundo de 1930?", "Quem e pais sede da Copa de 1930", "o pais que recebeu a Copa de 1930 foi que selecao?"],
+      "responses":["O pais sede da Copa do Mundo de 1930 foi o Uruguai."],
+      "context": [""]
+    },
+    {
+      "tag":"1930_menosvazado",
+      "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1930?", "Quem e goleiro menos vazado da Copa de 1930", "o goleiro menos vazado da Copa de 1930 foi que goleiro?"],
+      "responses":["Os goleiros menos vazados da Copa do Mundo de 1930 foram o uruguaio Enrique Ballesteros, o frances Alexis Thepot e o chileno R. Cortes, todos com 5 gols sofridos."],
+      "context": [""]
+    },
+    {
+        "tag":"1934_campeao",
+        "patterns":["Qual foi o campeao da Copa do Mundo de 1934?", "Quem e o campeao da Copa de 1934", "o campeao da Copa de 1934 foi que selecao?", "Quem ganhou em 1934?"],
+        "responses":["O campeao da Copa do Mundo de 1934 foi a Italia."],
+        "context": [""]
+    },
+    {
+        "tag":"1934_segundo",
+        "patterns":["Qual foi o vice campeao da Copa do Mundo de 1934?", "Quem e o vice campeao da Copa de 1934", "o vice campeao da Copa de 1934 foi que selecao?"],
+        "responses":["O vice campeao da Copa do Mundo de 1934 foi a Checoslovaquia."],
+        "context": [""]
+    },
+    {
+        "tag":"1934_terceiro",
+        "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1934?", "Quem e o terceiro colocado da Copa de 1934", "o terceiro colocado da Copa de 1934 foi que selecao?"],
+        "responses":["O terceiro colocado da Copa do Mundo de 1934 foi a Alemanha."],
+        "context": [""]
+    },
+    {
+        "tag":"1934_quarto",
+        "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1934?", "Quem e o quarto colocado da Copa de 1934", "o quarto colocado da Copa de 1934 foi que selecao?"],
+        "responses":["O quarto colocado da Copa do Mundo de 1934 foi a Austria."],
+        "context": [""]
+    },
+    {
+      "tag":"1934_gols_marcados",
+      "patterns":["Quantos gols foram marcados na Copa do Mundo de 1934?", "Quantos gols teve na Copa de 1934?"],
+      "responses":["Na Copa do Mundo de 1934 foram marcados 70 gols."],
+      "context": [""]
+    },
+    {
+      "tag":"1934_selecoes",
+      "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1934?", "Quantos times jogaram a Copa de 1934?", "Quantos paises disputaram a Copa de 1934?"],
+      "responses":["A Copa do Mundo de 1934 foi disputada por 16 selecoes."],
+      "context": [""]
+    },
+    {
+      "tag":"1934_partidas",
+      "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1934?", "Quantas partidas foram jogadas na Copa de 1934"],
+      "responses":["Na Copa do Mundo de 1934 foram disputadas 17 partidas."],
+      "context": [""]
+    },
+    {
+      "tag":"1934_publico",
+      "patterns":["Qual foi o publico total da Copa do Mundo de 1934?", "Quanto foi o publico da Copa de 1934?"],
+      "responses":["A Copa do Mundo de 1934 teve 395000 espectadores em seus jogos."],
+      "context": [""]
+    },
+    {
+      "tag":"1934_artilheiro",
+      "patterns":["Qual foi o artilheiro da Copa do Mundo de 1934?", "Quem e o artilheiro da Copa de 1934", "o artilheiro da Copa de 1934 foi que jogador?"],
+      "responses":["Os artilheiros da Copa do Mundo de 1934 foram o tchecoslovaquio Oldrich Nejedly, o alemao Edmund Conene o italiano Angelo Schiavio com 5 gols."],
+      "context": [""]
+    },
+    {
+      "tag":"1934_pais_sede",
+      "patterns":["Qual foi o pais sede da Copa do Mundo de 1934?", "Quem e pais sede da Copa de 1934", "o pais que recebeu a Copa de 1934 foi que selecao?"],
+      "responses":["O pais sede da Copa do Mundo de 1934 foi a Italia."],
+      "context": [""]
+    },
+    {
+      "tag":"1934_menosvazado",
+      "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1934?", "Quem e goleiro menos vazado da Copa de 1934", "o goleiro menos vazado da Copa de 1934 foi que goleiro?"],
+      "responses":["O goleiro menos vazado da Copa do Mundo de 1934 foi o espanhol Ricardo Zamora com 2 gols sofridos."],
+      "context": [""]
+    },    
+    {
+        "tag":"1938_campeao",
+        "patterns":["Qual foi o campeao da Copa do Mundo de 1938?", "Quem e o campeao da Copa de 1938", "o campeao da Copa de 1938 foi que selecao?", "Quem ganhou em 1938?"],
+        "responses":["O campeao da Copa do Mundo de 1938 foi a Italia."],
+        "context": [""]
+    },
+    {
+        "tag":"1938_segundo",
+        "patterns":["Qual foi o vice campeao da Copa do Mundo de 1938?", "Quem e o vice campeao da Copa de 1938", "o vice campeao da Copa de 1938 foi que selecao?"],
+        "responses":["O vice campeao da Copa do Mundo de 1938 foi a Hungria."],
+        "context": [""]
+    },
+    {
+        "tag":"1938_terceiro",
+        "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1938?", "Quem e o terceiro colocado da Copa de 1938", "o terceiro colocado da Copa de 1938 foi que selecao?"],
+        "responses":["O terceiro colocado da Copa do Mundo de 1938 foi o Brazil."],
+        "context": [""]
+    },
+    {
+        "tag":"1938_quarto",
+        "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1938?", "Quem e o quarto colocado da Copa de 1938", "o quarto colocado da Copa de 1938 foi que selecao?"],
+        "responses":["O quarto colocado da Copa do Mundo de 1938 foi a Suecia."],
+        "context": [""]
+    },
+    {
+      "tag":"1938_gols_marcados",
+      "patterns":["Quantos gols foram marcados na Copa do Mundo de 1938?", "Quantos gols teve na Copa de 1938?"],
+      "responses":["Na Copa do Mundo de 1938 foram marcados 84 gols."],
+      "context": [""]
+    },
+    {
+      "tag":"1938_selecoes",
+      "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1938?", "Quantos times jogaram a Copa de 1938?", "Quantos paises disputaram a Copa de 1938?"],
+      "responses":["A Copa do Mundo de 1938 foi disputada por 15 selecoes."],
+      "context": [""]
+    },
+    {
+      "tag":"1938_partidas",
+      "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1938?", "Quantas partidas foram jogadas na Copa de 1938"],
+      "responses":["Na Copa do Mundo de 1938 foram disputadas 18 partidas."],
+      "context": [""]
+    },
+    {
+      "tag":"1938_publico",
+      "patterns":["Qual foi o publico total da Copa do Mundo de 1938?", "Quanto foi o publico da Copa de 1938?"],
+      "responses":["A Copa do Mundo de 1938 teve 483000 espectadores em seus jogos."],
+      "context": [""]
+    },
+    {
+      "tag":"1938_artilheiro",
+      "patterns":["Qual foi o artilheiro da Copa do Mundo de 1938?", "Quem e o artilheiro da Copa de 1938", "o artilheiro da Copa de 1938 foi que jogador?"],
+      "responses":["O artilheiro da Copa do Mundo de 1938 foram o brasileiro Leonidas da Silva com 7 gols."],
+      "context": [""]
+    },
+    {
+      "tag":"1938_pais_sede",
+      "patterns":["Qual foi o pais sede da Copa do Mundo de 1938?", "Quem e pais sede da Copa de 1938", "o pais que recebeu a Copa de 1938 foi que selecao?"],
+      "responses":["O pais sede da Copa do Mundo de 1938 foi a Franca."],
+      "context": [""]
+    },
+    {
+      "tag":"1938_menosvazado",
+      "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1938?", "Quem e goleiro menos vazado da Copa de 1938", "o goleiro menos vazado da Copa de 1938 foi que goleiro?"],
+      "responses":["O goleiro menos vazado da Copa do Mundo de 1938 foi o tcheco Frantisek Planicka com 1 gol sofrido em tempo regular."],
+      "context": [""]
+    },
+    {
+        "tag":"1950_campeao",
+        "patterns":["Qual foi o campeao da Copa do Mundo de 1950?", "Quem e o campeao da Copa de 1950", "o campeao da Copa de 1950 foi que selecao?", "Quem ganhou em 1950?"],
+        "responses":["O campeao da Copa do Mundo de 1950 foi o Uruguai."],
+        "context": [""]
+    },
+    {
+        "tag":"1950_segundo",
+        "patterns":["Qual foi o vice campeao da Copa do Mundo de 1950?", "Quem e o vice campeao da Copa de 1950", "o vice campeao da Copa de 1950 foi que selecao?"],
+        "responses":["O vice campeao da Copa do Mundo de 1950 foi o Brasil."],
+        "context": [""]
+    },
+    {
+        "tag":"1950_terceiro",
+        "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1950?", "Quem e o terceiro colocado da Copa de 1950", "o terceiro colocado da Copa de 1950 foi que selecao?"],
+        "responses":["O terceiro colocado da Copa do Mundo de 1950 foi a Suecia."],
+        "context": [""]
+    },
+    {
+        "tag":"1950_quarto",
+        "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1950?", "Quem e o quarto colocado da Copa de 1950", "o quarto colocado da Copa de 1950 foi que selecao?"],
+        "responses":["O quarto colocado da Copa do Mundo de 1950 foi a Espanha."],
+        "context": [""]
+    },
+    {
+      "tag":"1950_gols_marcados",
+      "patterns":["Quantos gols foram marcados na Copa do Mundo de 1950?", "Quantos gols teve na Copa de 1950?"],
+      "responses":["Na Copa do Mundo de 1950 foram marcados 88 gols."],
+      "context": [""]
+    },
+    {
+      "tag":"1950_selecoes",
+      "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1950?", "Quantos times jogaram a Copa de 1950?", "Quantos paises disputaram a Copa de 1950?"],
+      "responses":["A Copa do Mundo de 1950 foi disputada por 13 selecoes."],
+      "context": [""]
+    },
+    {
+      "tag":"1950_partidas",
+      "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1950?", "Quantas partidas foram jogadas na Copa de 1950"],
+      "responses":["Na Copa do Mundo de 1950 foram disputadas 22 partidas."],
+      "context": [""]
+    },
+    {
+      "tag":"1950_publico",
+      "patterns":["Qual foi o publico total da Copa do Mundo de 1950?", "Quanto foi o publico da Copa de 1950?"],
+      "responses":["A Copa do Mundo de 1950 teve 1337000 espectadores em seus jogos."],
+      "context": [""]
+    },
+    {
+      "tag":"1950_artilheiro",
+      "patterns":["Qual foi o artilheiro da Copa do Mundo de 1950?", "Quem e o artilheiro da Copa de 1950", "o artilheiro da Copa de 1950 foi que jogador?"],
+      "responses":["O artilheiro da Copa do Mundo de 1950 foram o brasileiro Ademir de Menezes com 9 gols."],
+      "context": [""]
+    },
+    {
+      "tag":"1950_pais_sede",
+      "patterns":["Qual foi o pais sede da Copa do Mundo de 1950?", "Quem e pais sede da Copa de 1950", "o pais que recebeu a Copa de 1950 foi que selecao?"],
+      "responses":["O pais sede da Copa do Mundo de 1950 foi a Franca."],
+      "context": [""]
+    },
+    {
+      "tag":"1950_menosvazado",
+      "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1950?", "Quem e goleiro menos vazado da Copa de 1950", "o goleiro menos vazado da Copa de 1950 foi que goleiro?"],
+      "responses":["O goleiro menos vazado da Copa do Mundo de 1950 foi o uruguaio Roque Maspoli com 5 gols sofridos em tempo regular."],
+      "context": [""]
+    },
+    {
+      "tag":"1954_campeao",
+      "patterns":["Qual foi o campeao da Copa do Mundo de 1954?", "Quem e o campeao da Copa de 1954", "o campeao da Copa de 1954 foi que selecao?"],
+      "responses":["O campeao da Copa do Mundo de 1954 foi a Alemanha."],
+      "context": [""]
+  },
+  {
+      "tag":"1954_segundo",
+      "patterns":["Qual foi o vice campeao da Copa do Mundo de 1954?", "Quem e o vice campeao da Copa de 1954", "o vice campeao da Copa de 1954 foi que selecao?", "Quem ganhou em 1954?"],
+      "responses":["O vice campeao da Copa do Mundo de 1954 foi a Hungria."],
+      "context": [""]
+  },
+  {
+      "tag":"1954_terceiro",
+      "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1954?", "Quem e o terceiro colocado da Copa de 1954", "o terceiro colocado da Copa de 1954 foi que selecao?"],
+      "responses":["O terceiro colocado da Copa do Mundo de 1954 foi a austria."],
+      "context": [""]
+  },
+  {
+      "tag":"1954_quarto",
+      "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1954?", "Quem e o quarto colocado da Copa de 1954", "o quarto colocado da Copa de 1954 foi que selecao?"],
+      "responses":["O quarto colocado da Copa do Mundo de 1954 foi o Uruguai."],
+      "context": [""]
+  },
+  {
+    "tag":"1954_gols_marcados",
+    "patterns":["Quantos gols foram marcados na Copa do Mundo de 1954?", "Quantos gols teve na Copa de 1954?"],
+    "responses":["Na Copa do Mundo de 1954 foram marcados 140 gols."],
+    "context": [""]
+  },
+  {
+    "tag":"1954_selecoes",
+    "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1954?", "Quantos times jogaram a Copa de 1954?", "Quantos paises disputaram a Copa de 1954?"],
+    "responses":["A Copa do Mundo de 1954 foi disputada por 16 selecoes."],
+    "context": [""]
+  },
+  {
+    "tag":"1954_partidas",
+    "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1954?", "Quantas partidas foram jogadas na Copa de 1954"],
+    "responses":["Na Copa do Mundo de 1954 foram disputadas 26 partidas."],
+    "context": [""]
+  },
+  {
+    "tag":"1954_publico",
+    "patterns":["Qual foi o publico total da Copa do Mundo de 1954?", "Quanto foi o publico da Copa de 1954?"],
+    "responses":["A Copa do Mundo de 1954 teve 943000 espectadores em seus jogos."],
+    "context": [""]
+  },
+  {
+    "tag":"1954_artilheiro",
+    "patterns":["Qual foi o artilheiro da Copa do Mundo de 1954?", "Quem e o artilheiro da Copa de 1954", "o artilheiro da Copa de 1954 foi que jogador?"],
+    "responses":["O artilheiro da Copa do Mundo de 1954 foi o hungaro Sandor Kocsis com 11 gols."],
+    "context": [""]
+  },
+  {
+    "tag":"1954_pais_sede",
+    "patterns":["Qual foi o pais sede da Copa do Mundo de 1954?", "Quem e pais sede da Copa de 1954", "o pais que recebeu a Copa de 1954 foi que selecao?"],
+    "responses":["O pais sede da Copa do Mundo de 1954 foi a Suica."],
+    "context": [""]
+  },
+  {
+    "tag":"1954_menosvazado",
+    "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1954?", "Quem e goleiro menos vazado da Copa de 1954", "o goleiro menos vazado da Copa de 1954 foi que goleiro?"],
+    "responses":["O goleiro menos vazado da Copa do Mundo de 1954 foi o Francois Remetter pela Franca e o Vladimir Beara pela Iugoslavia, ambos com 3 gols sofridos."],
+    "context": [""]
+  },
+  {
+    "tag":"1958_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 1958?", "Quem e o campeao da Copa de 1958", "o campeao da Copa de 1958 foi que selecao?", "Quem ganhou em 1958?"],
+    "responses":["O campeao da Copa do Mundo de 1958 foi o Brasil."],
+    "context": [""]
+},
+{
+    "tag":"1958_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 1958?", "Quem e o vice campeao da Copa de 1958", "o vice campeao da Copa de 1958 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 1958 foi a Suecia."],
+    "context": [""]
+},
+{
+    "tag":"1958_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1958?", "Quem e o terceiro colocado da Copa de 1958", "o terceiro colocado da Copa de 1958 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 1958 foi a Franca."],
+    "context": [""]
+},
+{
+    "tag":"1958_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1958?", "Quem e o quarto colocado da Copa de 1958", "o quarto colocado da Copa de 1958 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 1958 foi o Alemanha Ocidental."],
+    "context": [""]
+},
+{
+  "tag":"1958_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 1958?", "Quantos gols teve na Copa de 1958?"],
+  "responses":["Na Copa do Mundo de 1958 foram marcados 126 gols."],
+  "context": [""]
+},
+{
+  "tag":"1958_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1954?", "Quantos times jogaram a Copa de 1958?", "Quantos paises disputaram a Copa de 1958?"],
+  "responses":["A Copa do Mundo de 1958 foi disputada por 16 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"1958_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1958?", "Quantas partidas foram jogadas na Copa de 1958"],
+  "responses":["Na Copa do Mundo de 1958 foram disputadas 35 partidas."],
+  "context": [""]
+},
+{
+  "tag":"1958_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 1958?", "Quanto foi o publico da Copa de 1958?"],
+  "responses":["A Copa do Mundo de 1958 teve 868000 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"1958_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 1958?", "Quem e o artilheiro da Copa de 1958", "o artilheiro da Copa de 1958 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 1958 foi o francês Just Fontaine com 13 gols."],
+  "context": [""]
+},
+{
+  "tag":"1958_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 1958?", "Quem e pais sede da Copa de 1958", "o pais que recebeu a Copa de 1958 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 1958 foi a Suecia."],
+  "context": [""]
+},
+{
+  "tag":"1958_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1958?", "Quem e goleiro menos vazado da Copa de 1958", "o goleiro menos vazado da Copa de 1958 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 1958 foi o Gilmar pelo Brasil e o Jack Kelsey por Gales, ambos com 4 gols sofridos."],
+  "context": [""]
+},
+{
+  "tag":"1962_campeao",
+  "patterns":["Qual foi o campeao da Copa do Mundo de 1962?", "Quem e o campeao da Copa de 1962", "o campeao da Copa de 1962 foi que selecao?", "Quem ganhou em 1962?"],
+  "responses":["O campeao da Copa do Mundo de 1962 foi o Brasil."],
+  "context": [""]
+},
+{
+  "tag":"1962_segundo",
+  "patterns":["Qual foi o vice campeao da Copa do Mundo de 1962?", "Quem e o vice campeao da Copa de 1962", "o vice campeao da Copa de 1962 foi que selecao?"],
+  "responses":["O vice campeao da Copa do Mundo de 1962 foi a Tchecoslovaquia."],
+  "context": [""]
+},
+{
+  "tag":"1962_terceiro",
+  "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1962?", "Quem e o terceiro colocado da Copa de 1962", "o terceiro colocado da Copa de 1962 foi que selecao?"],
+  "responses":["O terceiro colocado da Copa do Mundo de 1962 foi o Chile."],
+  "context": [""]
+},
+{
+  "tag":"1962_quarto",
+  "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1962?", "Quem e o quarto colocado da Copa de 1962", "o quarto colocado da Copa de 1962 foi que selecao?"],
+  "responses":["O quarto colocado da Copa do Mundo de 1962 foi a Iugoslavia."],
+  "context": [""]
+},
+{
+"tag":"1962_gols_marcados",
+"patterns":["Quantos gols foram marcados na Copa do Mundo de 1962?", "Quantos gols teve na Copa de 1962?"],
+"responses":["Na Copa do Mundo de 1962 foram marcados 89 gols."],
+"context": [""]
+},
+{
+"tag":"1962_selecoes",
+"patterns":["Quantas selecoes jogaram a Copa do Mundo de 1962?", "Quantos times jogaram a Copa de 1962?", "Quantos paises disputaram a Copa de 1962?"],
+"responses":["A Copa do Mundo de 1962 foi disputada por 16 selecoes."],
+"context": [""]
+},
+{
+"tag":"1962_partidas",
+"patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1962?", "Quantas partidas foram jogadas na Copa de 1962"],
+"responses":["Na Copa do Mundo de 1962 foram disputadas 32 partidas."],
+"context": [""]
+},
+{
+"tag":"1962_publico",
+"patterns":["Qual foi o publico total da Copa do Mundo de 1962?", "Quanto foi o publico da Copa de 1962?"],
+"responses":["A Copa do Mundo de 1962 teve 776000 espectadores em seus jogos."],
+"context": [""]
+},
+{
+"tag":"1962_artilheiro",
+"patterns":["Qual foi o artilheiro da Copa do Mundo de 1962?", "Quem e o artilheiro da Copa de 1962", "o artilheiro da Copa de 1962 foi que jogador?"],
+"responses":["O artilheiro da Copa do Mundo de 1962 foi o croata Drazen Jerkovic com 5 gols."],
+"context": [""]
+},
+{
+"tag":"1962_pais_sede",
+"patterns":["Qual foi o pais sede da Copa do Mundo de 1962?", "Quem e pais sede da Copa de 1962", "o pais que recebeu a Copa de 1962 foi que selecao?"],
+"responses":["O pais sede da Copa do Mundo de 1962 foi o Chile."],
+"context": [""]
+},
+{
+"tag":"1962_menosvazado",
+"patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1962?", "Quem e goleiro menos vazado da Copa de 1962", "o goleiro menos vazado da Copa de 1962 foi que goleiro?"],
+"responses":["O goleiro menos vazado da Copa do Mundo de 1962 foi o Wolfgang Fahrian pela Alemanha e o Gyula Grosics pela Hungria, ambos com 2 gols sofridos."],
+"context": [""]
+},
+{
+"tag":"1966_campeao",
+"patterns":["Qual foi o campeao da Copa do Mundo de 1966?", "Quem e o campeao da Copa de 1966", "o campeao da Copa de 1966 foi que selecao?", "Quem ganhou em 1966?"],
+"responses":["O campeao da Copa do Mundo de 1966 foi a Inglaterra."],
+"context": [""]
+},
+{
+"tag":"1966_segundo",
+"patterns":["Qual foi o vice campeao da Copa do Mundo de 1966?", "Quem e o vice campeao da Copa de 1966", "o vice campeao da Copa de 1966 foi que selecao?"],
+"responses":["O vice campeao da Copa do Mundo de 1966 foi a Alemanha Ocidental."],
+"context": [""]
+},
+{
+"tag":"1966_terceiro",
+"patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1966?", "Quem e o terceiro colocado da Copa de 1966", "o terceiro colocado da Copa de 1966 foi que selecao?"],
+"responses":["O terceiro colocado da Copa do Mundo de 1966 foi a Uniao Sovietica."],
+"context": [""]
+},
+{
+"tag":"1966_quarto",
+"patterns":["Qual foi o quarto colocado da Copa do Mundo de 1966?", "Quem e o quarto colocado da Copa de 1966", "o quarto colocado da Copa de 1966 foi que selecao?"],
+"responses":["O quarto colocado da Copa do Mundo de 1962 foi a Argentina."],
+"context": [""]
+},
+{
+"tag":"1966_gols_marcados",
+"patterns":["Quantos gols foram marcados na Copa do Mundo de 1966?", "Quantos gols teve na Copa de 1966?"],
+"responses":["Na Copa do Mundo de 1966 foram marcados 89 gols."],
+"context": [""]
+},
+{
+"tag":"1966_selecoes",
+"patterns":["Quantas selecoes jogaram a Copa do Mundo de 1966?", "Quantos times jogaram a Copa de 1966?", "Quantos paises disputaram a Copa de 1966?"],
+"responses":["A Copa do Mundo de 1966 foi disputada por 16 selecoes."],
+"context": [""]
+},
+{
+"tag":"1966_partidas",
+"patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1966?", "Quantas partidas foram jogadas na Copa de 1966"],
+"responses":["Na Copa do Mundo de 1966 foram disputadas 32 partidas."],
+"context": [""]
+},
+{
+"tag":"1966_publico",
+"patterns":["Qual foi o publico total da Copa do Mundo de 1966?", "Quanto foi o publico da Copa de 1966?"],
+"responses":["A Copa do Mundo de 1966 teve 1614677 espectadores em seus jogos."],
+"context": [""]
+},
+{
+"tag":"1966_artilheiro",
+"patterns":["Qual foi o artilheiro da Copa do Mundo de 1962?", "Quem e o artilheiro da Copa de 1962", "o artilheiro da Copa de 1962 foi que jogador?"],
+"responses":["O artilheiro da Copa do Mundo de 1966 foi o português Eusebio com 9 gols."],
+"context": [""]
+},
+{
+"tag":"1966_pais_sede",
+"patterns":["Qual foi o pais sede da Copa do Mundo de 1966?", "Quem e pais sede da Copa de 1966", "o pais que recebeu a Copa de 1966 foi que selecao?"],
+"responses":["O pais sede da Copa do Mundo de 1966 foi a Inglaterra."],
+"context": [""]
+},
+{
+"tag":"1966_menosvazado",
+"patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1966?", "Quem e goleiro menos vazado da Copa de 1966", "o goleiro menos vazado da Copa de 1966 foi que goleiro?"],
+"responses":["O goleiro menos vazado da Copa do Mundo de 1966 foi o Antonio Roma pela Argentina e o Enrico Albertosi pela Italia, ambos com 2 gols sofridos."],
+"context": [""]
+},
+{
+  "tag":"1970_campeao",
+  "patterns":["Qual foi o campeao da Copa do Mundo de 1970?", "Quem e o campeao da Copa de 1970", "o campeao da Copa de 1970 foi que selecao?", "Quem ganhou em 1970?"],
+  "responses":["O campeao da Copa do Mundo de 1970 foi a Brasil."],
+  "context": [""]
+},
+{
+  "tag":"1970_segundo",
+  "patterns":["Qual foi o vice campeao da Copa do Mundo de 1970?", "Quem e o vice campeao da Copa de 1970", "o vice campeao da Copa de 1970 foi que selecao?"],
+  "responses":["O vice campeao da Copa do Mundo de 1970 foi a Italia."],
+  "context": [""]
+},
+{
+  "tag":"1970_terceiro",
+  "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1970?", "Quem e o terceiro colocado da Copa de 1970", "o terceiro colocado da Copa de 1970 foi que selecao?"],
+  "responses":["O terceiro colocado da Copa do Mundo de 1970 foi a Alemenha Ocidental."],
+  "context": [""]
+},
+{
+  "tag":"1970_quarto",
+  "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1970?", "Quem e o quarto colocado da Copa de 1970", "o quarto colocado da Copa de 1970 foi que selecao?"],
+  "responses":["O quarto colocado da Copa do Mundo de 1970 foi o Uruguai."],
+  "context": [""]
+},
+{
+"tag":"1970_gols_marcados",
+"patterns":["Quantos gols foram marcados na Copa do Mundo de 1970?", "Quantos gols teve na Copa de 1970?"],
+"responses":["Na Copa do Mundo de 1970 foram marcados 95 gols."],
+"context": [""]
+},
+{
+"tag":"1970_selecoes",
+"patterns":["Quantas selecoes jogaram a Copa do Mundo de 1970?", "Quantos times jogaram a Copa de 1970?", "Quantos paises disputaram a Copa de 1970?"],
+"responses":["A Copa do Mundo de 1970 foi disputada por 16 selecoes."],
+"context": [""]
+},
+{
+"tag":"1970_partidas",
+"patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1970?", "Quantas partidas foram jogadas na Copa de 1970"],
+"responses":["Na Copa do Mundo de 1970 foram disputadas 32 partidas."],
+"context": [""]
+},
+{
+"tag":"1970_publico",
+"patterns":["Qual foi o publico total da Copa do Mundo de 1970?", "Quanto foi o publico da Copa de 1970?"],
+"responses":["A Copa do Mundo de 1970 teve 1673975 espectadores em seus jogos."],
+"context": [""]
+},
+{
+"tag":"1970_artilheiro",
+"patterns":["Qual foi o artilheiro da Copa do Mundo de 1970?", "Quem e o artilheiro da Copa de 1970", "o artilheiro da Copa de 1970 foi que jogador?"],
+"responses":["O artilheiro da Copa do Mundo de 1970 foi o alemao Gerd Muller com 10 gols."],
+"context": [""]
+},
+{
+"tag":"1970_pais_sede",
+"patterns":["Qual foi o pais sede da Copa do Mundo de 1970?", "Quem e pais sede da Copa de 1970", "o pais que recebeu a Copa de 1970 foi que selecao?"],
+"responses":["O pais sede da Copa do Mundo de 1970 foi o Mexico."],
+"context": [""]
+},
+{
+"tag":"1970_menosvazado",
+"patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1970?", "Quem e goleiro menos vazado da Copa de 1970", "o goleiro menos vazado da Copa de 1970 foi que goleiro?"],
+"responses":["O goleiro menos vazado da Copa do Mundo de 1970 foi o Ronnie Hellström pela Suecia"],
+"context": [""]
+},
+{
+    "tag":"1974_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 1974?", "Quem e o campeao da Copa de 1974", "o campeao da Copa de 1974 foi que selecao?"],
+    "responses":["O campeao da Copa do Mundo de 1974 foi a Alemanha Ocidental."],
+    "context": [""]
+},
+{
+    "tag":"1974_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 1974?", "Quem e o vice campeao da Copa de 1974", "o vice campeao da Copa de 1974 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 1974 foi a Holanda."],
+    "context": [""]
+},
+{
+    "tag":"1970_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1974?", "Quem e o terceiro colocado da Copa de 1974", "o terceiro colocado da Copa de 1974 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 1974 foi a Plonia."],
+    "context": [""]
+},
+{
+  "tag":"1974_campeao",
+  "patterns":["Qual foi o campeão da Copa do Mundo de 1974?", "Quem e o campeao da Copa de 1974", "o campeao da Copa de 1974 foi que selecao?", "Quem ganhou em 1974?"],
+  "responses":["O campeao da Copa do Mundo de 1974 foi a Alemanha Ocidental."],
+  "context": [""]
+},
+{
+  "tag":"1974_segundo",
+  "patterns":["Qual foi o vice campeao da Copa do Mundo de 1974?", "Quem e o vice campeao da Copa de 1974", "o vice campeao da Copa de 1974 foi que selecao?"],
+  "responses":["O vice campeao da Copa do Mundo de 1974 foi a Holanda."],
+  "context": [""]
+},
+{
+  "tag":"1970_terceiro",
+  "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1974?", "Quem e o terceiro colocado da Copa de 1974", "o terceiro colocado da Copa de 1974 foi que selecao?"],
+  "responses":["O terceiro colocado da Copa do Mundo de 1974 foi a Plonia."],
+  "context": [""]
+},
+{
+    "tag":"1974_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1974?", "Quem e o quarto colocado da Copa de 1974", "o quarto colocado da Copa de 1974 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 1974 foi o Brasil."],
+    "context": [""]
+},
+{
+  "tag":"1974_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 1974?", "Quantos gols teve na Copa de 1974?"],
+  "responses":["Na Copa do Mundo de 1974 foram marcados 97 gols."],
+  "context": [""]
+},
+{
+  "tag":"1974_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1974?", "Quantos times jogaram a Copa de 1974?", "Quantos paises disputaram a Copa de 1974?"],
+  "responses":["A Copa do Mundo de 1974 foi disputada por 16 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"1974_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1974?", "Quantas partidas foram jogadas na Copa de 1974"],
+  "responses":["Na Copa do Mundo de 1974 foram disputadas 38 partidas."],
+  "context": [""]
+},
+{
+  "tag":"1974_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 1974?", "Quanto foi o publico da Copa de 1974?"],
+  "responses":["A Copa do Mundo de 1974 teve 1774022 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"1974_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 1974?", "Quem e o artilheiro da Copa de 1974", "o artilheiro da Copa de 1974 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 1974 foi o polones Grzegorz Lat com 7 gols."],
+  "context": [""]
+},
+{
+  "tag":"1974_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 1974?", "Quem e pais sede da Copa de 1974", "o pais que recebeu a Copa de 1974 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 1974 foi a Alemanha."],
+  "context": [""]
+},
+{
+  "tag":"1974_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1974?", "Quem e goleiro menos vazado da Copa de 1974", "o goleiro menos vazado da Copa de 1974 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 1974 foi o Sepp Maier pela Alemanha"],
+  "context": [""]
+},
+{
+      "tag":"1978_campeao",
+      "patterns":["Qual foi o campeao da Copa do Mundo de 1978?", "Quem e o campeao da Copa de 1978", "o campeao da Copa de 1978 foi que selecao?", "Quem ganhou em 1978?"],
+      "responses":["O campeao da Copa do Mundo de 1978 foi a Argentina."],
+      "context": [""]
+  },
+  {
+      "tag":"1978_segundo",
+      "patterns":["Qual foi o vice campeao da Copa do Mundo de 1978?", "Quem e o vice campeao da Copa de 1978", "o vice campeao da Copa de 1978 foi que selecao?"],
+      "responses":["O vice campeao da Copa do Mundo de 1978 foi a Holanda."],
+      "context": [""]
+  },
+  {
+      "tag":"1978_terceiro",
+      "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1978?", "Quem e o terceiro colocado da Copa de 1978", "o terceiro colocado da Copa de 1978 foi que selecao?"],
+      "responses":["O terceiro colocado da Copa do Mundo de 1978 foi o Brasil."],
+      "context": [""]
+  },
+  {
+      "tag":"1978_quarto",
+      "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1978?", "Quem e o quarto colocado da Copa de 1978", "o quarto colocado da Copa de 1978 foi que selecao?"],
+      "responses":["O quarto colocado da Copa do Mundo de 1978 foi a Italia."],
+      "context": [""]
+  },
+  {
+    "tag":"1978_gols_marcados",
+    "patterns":["Quantos gols foram marcados na Copa do Mundo de 1978?", "Quantos gols teve na Copa de 1978?"],
+    "responses":["Na Copa do Mundo de 1978 foram marcados 102 gols."],
+    "context": [""]
+  },
+  {
+    "tag":"1978_selecoes",
+    "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1978?", "Quantos times jogaram a Copa de 1978?", "Quantos paises disputaram a Copa de 1978?"],
+    "responses":["A Copa do Mundo de 1978 foi disputada por 16 selecoes."],
+    "context": [""]
+  },
+  {
+    "tag":"1978_partidas",
+    "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1978?", "Quantas partidas foram jogadas na Copa de 1978"],
+    "responses":["Na Copa do Mundo de 1978 foram disputadas 32 partidas."],
+    "context": [""]
+  },
+  {
+    "tag":"1978_publico",
+    "patterns":["Qual foi o publico total da Copa do Mundo de 1978?", "Quanto foi o publico da Copa de 1978?"],
+    "responses":["A Copa do Mundo de 1978 teve 1610215 espectadores em seus jogos."],
+    "context": [""]
+  },
+  {
+    "tag":"1978_artilheiro",
+    "patterns":["Qual foi o artilheiro da Copa do Mundo de 1978?", "Quem e o artilheiro da Copa de 1978", "o artilheiro da Copa de 1978 foi que jogador?"],
+    "responses":["O artilheiro da Copa do Mundo de 1978 foi o argentino Mario Kempes com 6 gols."],
+    "context": [""]
+  },
+  {
+    "tag":"1978_pais_sede",
+    "patterns":["Qual foi o pais sede da Copa do Mundo de 1978?", "Quem e pais sede da Copa de 1978", "o pais que recebeu a Copa de 1978 foi que selecao?"],
+    "responses":["O pais sede da Copa do Mundo de 1978 foi A argentina."],
+    "context": [""]
+  },
+  {
+    "tag":"1978_menosvazado",
+    "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1978?", "Quem e goleiro menos vazado da Copa de 1978", "o goleiro menos vazado da Copa de 1978 foi que goleiro?"],
+    "responses":["O goleiro menos vazado da Copa do Mundo de 1978 foi o Sepp Maier pela Alemanha"],
+    "context": [""]
+  },
+  {
+    "tag":"1982_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 1982?", "Quem e o campeao da Copa de 1982", "o campeao da Copa de 1982 foi que selecao?", "Quem ganhou em 1982?"],
+    "responses":["O campeao da Copa do Mundo de 1982 foi a Italia."],
+    "context": [""]
+},
+{
+    "tag":"1982_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 1982?", "Quem e o vice campeao da Copa de 1982", "o vice campeao da Copa de 1982 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 1982 foi a Alemanha Ocidental."],
+    "context": [""]
+},
+{
+    "tag":"1982_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1982?", "Quem e o terceiro colocado da Copa de 1982", "o terceiro colocado da Copa de 1982 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 1982 foi o Polonia."],
+    "context": [""]
+},
+{
+    "tag":"1982_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1982?", "Quem e o quarto colocado da Copa de 1982", "o quarto colocado da Copa de 1982 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 1982 foi a Franca."],
+    "context": [""]
+},
+{
+  "tag":"1982_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 1982?", "Quantos gols teve na Copa de 1982?"],
+  "responses":["Na Copa do Mundo de 1982 foram marcados 146 gols."],
+  "context": [""]
+},
+{
+  "tag":"1982_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1982?", "Quantos times jogaram a Copa de 1982?", "Quantos paises disputaram a Copa de 1982?"],
+  "responses":["A Copa do Mundo de 1982 foi disputada por 24 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"1982_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1982?", "Quantas partidas foram jogadas na Copa de 1982"],
+  "responses":["Na Copa do Mundo de 1982 foram disputadas 52 partidas."],
+  "context": [""]
+},
+{
+  "tag":"1982_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 1982?", "Quanto foi o publico da Copa de 1982?"],
+  "responses":["A Copa do Mundo de 1982 teve 1856277 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"1982_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 1982?", "Quem e o artilheiro da Copa de 1982", "o artilheiro da Copa de 1982 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 1982 foi o italiano Paolo Rossi com 6 gols."],
+  "context": [""]
+},
+{
+  "tag":"1982_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 1982?", "Quem e pais sede da Copa de 1982", "o pais que recebeu a Copa de 1982 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 1982 foi a Espanha."],
+  "context": [""]
+},
+{
+  "tag":"1982_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1982?", "Quem e goleiro menos vazado da Copa de 1982", "o goleiro menos vazado da Copa de 1982 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 1982 foi o ingles Peter Shilton"],
+  "context": [""]
+},
+  {
+    "tag":"1986_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 1986?", "Quem e o campeao da Copa de 1986", "o campeao da Copa de 1986 foi que selecao?", "Quem ganhou em 1986?"],
+    "responses":["O campeao da Copa do Mundo de 1930 foi o Argentina."],
+    "context": [""]
+},
+{
+    "tag":"1986_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 1986?", "Quem e o vice campeao da Copa de 1986", "o vice campeao da Copa de 1986 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 1986 foi a Alemanha."],
+    "context": [""]
+},
+{
+    "tag":"1986_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1986?", "Quem e o terceiro colocado da Copa de 1986", "o terceiro colocado da Copa de 1986 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 1986 foi o Franca."],
+    "context": [""]
+},
+{
+    "tag":"1986_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1986?", "Quem e o quarto colocado da Copa de 1986", "o quarto colocado da Copa de 1986 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 1986 foi a Belgica."],
+    "context": [""]
+},
+{
+  "tag":"1986_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 1986?", "Quantos gols teve na Copa de 1986?"],
+  "responses":["Na Copa do Mundo de 1986 foram marcados 132 gols."],
+  "context": [""]
+},
+{
+  "tag":"1986_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1986?", "Quantos times jogaram a Copa de 1986?", "Quantos paises disputaram a Copa de 1986?"],
+  "responses":["A Copa do Mundo de 1986 foi disputada por 24 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"1986_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1986?", "Quantas partidas foram jogadas na Copa de 1986"],
+  "responses":["Na Copa do Mundo de 1986 foram disputadas 52 partidas."],
+  "context": [""]
+},
+{
+  "tag":"1986_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 1986?", "Quanto foi o publico da Copa de 1986?"],
+  "responses":["A Copa do Mundo de 1986 teve 2.393.331 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"1986_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 1986?", "Quem e o artilheiro da Copa de 1986", "o artilheiro da Copa de 1986 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 1986 foi o Ingles Gary Lineker com seis gols."],
+  "context": [""]
+},
+{
+  "tag":"1986_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 1986?", "Quem e pais sede da Copa de 1986", "o pais que recebeu a Copa de 1986 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 1986 foi a Colombia."],
+  "context": [""]
+},
+{
+  "tag":"1986_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1986?", "Quem e goleiro menos vazado da Copa de 1986", "o goleiro menos vazado da Copa de 1930 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 1986 foi o Brasileiro Carlos mais conhecido como muralha."],
+  "context": [""]
+},
+{
+    "tag":"1990_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 1990?", "Quem e o campeao da Copa de 1990", "o campeao da Copa de 1990 foi que selecao?", "Quem ganhou em 1990?"],
+    "responses":["O campeao da Copa do Mundo de 1990 foi a Alemanha Ocidental."],
+    "context": [""]
+},
+{
+    "tag":"1990_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 1990?", "Quem e o vice campeao da Copa de 1934", "o vice campeao da Copa de 1990 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 1990 foi a Argentina."],
+    "context": [""]
+},
+{
+    "tag":"1990_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1990?", "Quem e o terceiro colocado da Copa de 1990", "o terceiro colocado da Copa de 1990 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 1990 foi a Italia."],
+    "context": [""]
+},
+{
+    "tag":"1990_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1990?", "Quem e o quarto colocado da Copa de 1990", "o quarto colocado da Copa de 1990 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 1990 foi a Inglaterra."],
+    "context": [""]
+},
+{
+  "tag":"1990_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 1990?", "Quantos gols teve na Copa de 1990?"],
+  "responses":["Na Copa do Mundo de 1990 foram marcados 115 gols."],
+  "context": [""]
+},
+{
+  "tag":"1990_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1990?", "Quantos times jogaram a Copa de 1990?", "Quantos paises disputaram a Copa de 1990?"],
+  "responses":["A Copa do Mundo de 1990 foi disputada por 24 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"1990_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1990?", "Quantas partidas foram jogadas na Copa de 1990"],
+  "responses":["Na Copa do Mundo de 1990 foram disputadas 52 partidas."],
+  "context": [""]
+},
+{
+  "tag":"1990_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 1990?", "Quanto foi o publico da Copa de 1990?"],
+  "responses":["A Copa do Mundo de 1990 teve 2527348 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"1990_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 1990?", "Quem e o artilheiro da Copa de 1990", "o artilheiro da Copa de 1990 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 1990 foi o italiano Salvatore Schilacci com 6 gols."],
+  "context": [""]
+},
+{
+  "tag":"1990_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 1990?", "Quem e pais sede da Copa de 1990", "o pais que recebeu a Copa de 1990 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 1990 foi a Italia."],
+  "context": [""]
+},
+{
+  "tag":"1990_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1990?", "Quem e goleiro menos vazado da Copa de 1990", "o goleiro menos vazado da Copa de 1990 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 1990 foi o italiano Walter Zenga que ficou mais tempo sem ser vazado em um Mundial."],
+  "context": [""]
+},    
+{
+    "tag":"1994_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 1994?", "Quem e o campeao da Copa de 1994", "o campeao da Copa de 1994 foi que selecao?"],
+    "responses":["O campeao da Copa do Mundo de 1994 foi o Brasil."],
+    "context": [""]
+},
+{
+    "tag":"1994_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 1994?", "Quem e o vice campeao da Copa de 1994", "o vice campeao da Copa de 1994 foi que selecao?", "Quem ganhou em 1994?"],
+    "responses":["O vice campeao da Copa do Mundo de 1994 foi o Italia."],
+    "context": [""]
+},
+{
+    "tag":"1994_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1994?", "Quem e o terceiro colocado da Copa de 1994", "o terceiro colocado da Copa de 1994 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 1994 foi o Suecia."],
+    "context": [""]
+},
+{
+    "tag":"1994_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1994?", "Quem e o quarto colocado da Copa de 1994", "o quarto colocado da Copa de 1994 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 1994 foi a Bulgaria."],
+    "context": [""]
+},
+{
+  "tag":"1994_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 1994?", "Quantos gols teve na Copa de 1994?"],
+  "responses":["Na Copa do Mundo de 1994 foram marcados 141 gols."],
+  "context": [""]
+},
+{
+  "tag":"1994_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1994?", "Quantos times jogaram a Copa de 1994?", "Quantos paises disputaram a Copa de 1994?"],
+  "responses":["A Copa do Mundo de 1994 foi disputada por 24 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"1994_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1994?", "Quantas partidas foram jogadas na Copa de 1994"],
+  "responses":["Na Copa do Mundo de 1994 foram disputadas 52 partidas."],
+  "context": [""]
+},
+{
+  "tag":"1994_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 1994?", "Quanto foi o publico da Copa de 1994?"],
+  "responses":["A Copa do Mundo de 1994 teve 3568567 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"1994_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 1994?", "Quem e o artilheiro da Copa de 1994", "o artilheiro da Copa de 1994 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 1994 foram o bulgaro Hristo Stoichkov e o russo Oleg Salenko cada um com 6 gols."],
+  "context": [""]
+},
+{
+  "tag":"1998_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 1998?", "Quem e pais sede da Copa de 1998", "o pais que recebeu a Copa de 1998 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 1998 foi a Franca."],
+  "context": [""]
+},
+{
+  "tag":"1998_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 1998?", "Quem e goleiro menos vazado da Copa de 1998", "o goleiro menos vazado da Copa de 1998 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 1998 foi o Frances Fabien Barthez."],
+  "context": [""]
+},
+{
+    "tag":"1998_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 1998?", "Quem e o campeao da Copa de 1998", "o campeao da Copa de 1998 foi que selecao?", "Quem ganhou em 1998?"],
+    "responses":["O campeao da Copa do Mundo de 1998 foi a Franca."],
+    "context": [""]
+},
+{
+    "tag":"1998_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 1998?", "Quem e o vice campeao da Copa de 1998", "o vice campeao da Copa de 1998 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 1998 foi o Brasil."],
+    "context": [""]
+},
+{
+    "tag":"1998_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 1998?", "Quem e o terceiro colocado da Copa de 1998", "o terceiro colocado da Copa de 1998 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 1998 foi a Croacia."],
+    "context": [""]
+},
+{
+    "tag":"1998_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 1998?", "Quem e o quarto colocado da Copa de 1998", "o quarto colocado da Copa de 1998 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 1998 foi a Paises Baixos."],
+    "context": [""]
+},
+{
+  "tag":"1998_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 1998?", "Quantos gols teve na Copa de 1998?"],
+  "responses":["Na Copa do Mundo de 1998 foram marcados 171 gols."],
+  "context": [""]
+},
+{
+  "tag":"1998_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 1998?", "Quantos times jogaram a Copa de 1998?", "Quantos paises disputaram a Copa de 1998?"],
+  "responses":["A Copa do Mundo de 1998 foi disputada por 32 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"1998_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 1998?", "Quantas partidas foram jogadas na Copa de 1998"],
+  "responses":["Na Copa do Mundo de 1998 foram disputadas 64 partidas."],
+  "context": [""]
+},
+{
+  "tag":"1998_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 1998?", "Quanto foi o publico da Copa de 1998?"],
+  "responses":["A Copa do Mundo de 1998 teve 2859234 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"1998_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 1998?", "Quem e o artilheiro da Copa de 1998", "o artilheiro da Copa de 1998 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 1998 croata Davor Suker 6 gols."],
+  "context": [""]
+  },
+{
+  "tag":"2002_campeao",
+  "patterns":["Qual foi o campeao da Copa do Mundo de 2002?", "Quem e o campeao da Copa de 2002", "o campeao da Copa de 2002 foi que selecao?", "Quem ganhou em 2002?"],
+  "responses":["O campeao da Copa do Mundo de 2002 foi o Brasil."],
+  "context": [""]
+},
+{
+  "tag":"2002_segundo",
+  "patterns":["Qual foi o vice campeao da Copa do Mundo de 2002?", "Quem e o vice campeao da Copa de 2002", "o vice campeao da Copa de 2002 foi que selecao?"],
+  "responses":["O vice campeao da Copa do Mundo de 2002 foi a Alemanha."],
+  "context": [""]
+},
+{
+  "tag":"2002_terceiro",
+  "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 2002?", "Quem e o terceiro colocado da Copa de 2002", "o terceiro colocado da Copa de 2002 foi que selecao?"],
+  "responses":["O terceiro colocado da Copa do Mundo de 2002 foi a Turquia."],
+  "context": [""]
+},
+{
+  "tag":"2002_quarto",
+  "patterns":["Qual foi o quarto colocado da Copa do Mundo de 2002?", "Quem e o quarto colocado da Copa de 2002", "o quarto colocado da Copa de 2002 foi que selecao?"],
+  "responses":["O quarto colocado da Copa do Mundo de 2002 foi a Coreia do Sul."],
+  "context": [""]
+},
+{
+"tag":"2002_gols_marcados",
+"patterns":["Quantos gols foram marcados na Copa do Mundo de 2002?", "Quantos gols teve na Copa de 2002?"],
+"responses":["Na Copa do Mundo de 2002 foram marcados 161 gols."],
+"context": [""]
+},
+{
+"tag":"2002_selecoes",
+"patterns":["Quantas selecoes jogaram a Copa do Mundo de 2002?", "Quantos times jogaram a Copa de 2002?", "Quantos paises disputaram a Copa de 2002?"],
+"responses":["A Copa do Mundo de 2002 foi disputada por 32 selecoes."],
+"context": [""]
+},
+{
+"tag":"2002_partidas",
+"patterns":["Quantas partidas foram disputadas na Copa do Mundo de 2002?", "Quantas partidas foram jogadas na Copa de 2002"],
+"responses":["Na Copa do Mundo de 2002 foram disputadas 64 partidas."],
+"context": [""]
+},
+{
+"tag":"2002_publico",
+"patterns":["Qual foi o publico total da Copa do Mundo de 2002?", "Quanto foi o publico da Copa de 2002?"],
+"responses":["A Copa do Mundo de 2002 teve 2 705 197 espectadores em seus jogos."],
+"context": [""]
+},
+{
+"tag":"2002_artilheiro",
+"patterns":["Qual foi o artilheiro da Copa do Mundo de 2002?", "Quem e o artilheiro da Copa de 2002", "o artilheiro da Copa de 2002 foi que jogador?"],
+"responses":["O artilheiro da Copa do Mundo de 2002 foi o brasileiro Ronaldo Fenomeno com 8 gols."],
+"context": [""]
+},
+{
+"tag":"2002_pais_sede",
+"patterns":["Qual foi o pais sede da Copa do Mundo de 2002?", "Quem e pais sede da Copa de 2002", "o pais que recebeu a Copa de 2002 foi que selecao?"],
+"responses":["O pais sede da Copa do Mundo de 2002 foi a Coreia do Sul."],
+"context": [""]
+},
+{
+"tag":"2002_menosvazado",
+"patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2002?", "Quem e goleiro menos vazado da Copa de 2002", "o goleiro menos vazado da Copa de 2002 foi que goleiro?"],
+"responses":["O goleiro menos vazado da Copa do Mundo de 2002 foi o Oliver Kahn pela Alemanha"],
+"context": [""]
+},
+{
+    "tag":"2006_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 2006?", "Quem e o campeao da Copa de 2006", "o campeao da Copa de 2006 foi que selecao?", "Quem ganhou em 2006?"],
+    "responses":["O campeao da Copa do Mundo de 2006 foi a Italia."],
+    "context": [""]
+},
+{
+    "tag":"2006_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 2006?", "Quem e o vice campeao da Copa de 2006", "o vice campeao da Copa de 2006 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 2006 foi a Franca."],
+    "context": [""]
+},
+{
+    "tag":"2006_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 2006?", "Quem e o terceiro colocado da Copa de 2006", "o terceiro colocado da Copa de 2006 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 2006 foi a Alemanha."],
+    "context": [""]
+},
+{
+    "tag":"2006_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 2006?", "Quem e o quarto colocado da Copa de 2006", "o quarto colocado da Copa de 2006 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 2006 foi o Portugal."],
+    "context": [""]
+},
+{
+  "tag":"2006_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 2006?", "Quantos gols teve na Copa de 2006?"],
+  "responses":["Na Copa do Mundo de 2006 foram marcados 147 gols."],
+  "context": [""]
+},
+{
+  "tag":"2006_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 2006?", "Quantos times jogaram a Copa de 2006?", "Quantos paises disputaram a Copa de 2006?"],
+  "responses":["A Copa do Mundo de 2006 foi disputada por 32 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"2006_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 2006?", "Quantas partidas foram jogadas na Copa de 2006"],
+  "responses":["Na Copa do Mundo de 2006 foram disputadas 64 partidas."],
+  "context": [""]
+},
+{
+  "tag":"2006_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 2006?", "Quanto foi o publico da Copa de 2006?"],
+  "responses":["A Copa do Mundo de 2006 teve 3 359 439 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"2006_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 2006?", "Quem e o artilheiro da Copa de 2006", "o artilheiro da Copa de 2006 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 2006 foi o Miroslav Klose com 5 gols."],
+  "context": [""]
+},
+{
+  "tag":"2006_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 2006?", "Quem e pais sede da Copa de 2006", "o pais que recebeu a Copa de 2006 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 2006 foi a Alemanha."],
+  "context": [""]
+},
+{
+  "tag":"2006_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2006?", "Quem e goleiro menos vazado da Copa de 2006", "o goleiro menos vazado da Copa de 2006 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 2006 foi o Gianluigi Buffon pela Italia"],
+  "context": [""]
+},
+{
+      "tag":"2010_campeao",
+      "patterns":["Qual foi o campeao da Copa do Mundo de 2010?", "Quem e o campeao da Copa de 2010", "o campeao da Copa de 2010 foi que selecao?", "Quem ganhou em 2010?"],
+      "responses":["O campeao da Copa do Mundo de 2010 foi a Espanha."],
+      "context": [""]
+  },
+  {
+      "tag":"2010_segundo",
+      "patterns":["Qual foi o vice campeao da Copa do Mundo de 2010?", "Quem e o vice campeao da Copa de 2010", "o vice campeao da Copa de 2010 foi que selecao?"],
+      "responses":["O vice campeao da Copa do Mundo de 2010 foi o Paises Baixos."],
+      "context": [""]
+  },
+  {
+      "tag":"2010_terceiro",
+      "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 2010?", "Quem e o terceiro colocado da Copa de 2010", "o terceiro colocado da Copa de 2010 foi que selecao?"],
+      "responses":["O terceiro colocado da Copa do Mundo de 2010 foi a Alemanha."],
+      "context": [""]
+  },
+  {
+      "tag":"2010_quarto",
+      "patterns":["Qual foi o quarto colocado da Copa do Mundo de 2010?", "Quem e o quarto colocado da Copa de 2010", "o quarto colocado da Copa de 2010 foi que selecao?"],
+      "responses":["O quarto colocado da Copa do Mundo de 2010 foi o Uruguai."],
+      "context": [""]
+  },
+  {
+    "tag":"2010_gols_marcados",
+    "patterns":["Quantos gols foram marcados na Copa do Mundo de 2010?", "Quantos gols teve na Copa de 2010?"],
+    "responses":["Na Copa do Mundo de 2010 foram marcados 145 gols."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_selecoes",
+    "patterns":["Quantas selecoes jogaram a Copa do Mundo de 2010?", "Quantos times jogaram a Copa de 2010?", "Quantos paises disputaram a Copa de 2010?"],
+    "responses":["A Copa do Mundo de 2010 foi disputada por 32 selecoes."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_partidas",
+    "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 2010?", "Quantas partidas foram jogadas na Copa de 2010"],
+    "responses":["Na Copa do Mundo de 2010 foram disputadas 64 partidas."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_publico",
+    "patterns":["Qual foi o publico total da Copa do Mundo de 2010?", "Quanto foi o publico da Copa de 2010?"],
+    "responses":["A Copa do Mundo de 2010 teve 3 178 856 espectadores em seus jogos."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_artilheiro",
+    "patterns":["Qual foi o artilheiro da Copa do Mundo de 2010?", "Quem e o artilheiro da Copa de 2010", "o artilheiro da Copa de 2010 foi que jogador?"],
+    "responses":["O artilheiro da Copa do Mundo de 2010 foram: Thomas Muller, David Villa, Wesley Sneijder e Diego Forlan, todos com 5 gols."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_pais_sede",
+    "patterns":["Qual foi o pais sede da Copa do Mundo de 2010?", "Quem e pais sede da Copa de 2010", "o pais que recebeu a Copa de 2010 foi que selecao?"],
+    "responses":["O pais sede da Copa do Mundo de 2010 foi a Africa do Sul."],
+    "context": [""]
+  },
+  {
+    "tag":"2010_menosvazado",
+    "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2010?", "Quem e goleiro menos vazado da Copa de 2010", "o goleiro menos vazado da Copa de 2010 foi que goleiro?"],
+    "responses":["O goleiro menos vazado da Copa do Mundo de 2010 foi o Iker Casillas pela Espanha"],
+    "context": [""]
+  },
+  {
+    "tag":"2014_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 2014?", "Quem e o campeao da Copa de 2014", "o campeao da Copa de 2014 foi que selecao?", "Quem ganhou em 2014?"],
+    "responses":["O campeao da Copa do Mundo de 2014 foi a Alemanha."],
+    "context": [""]
+},
+{
+    "tag":"2014_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 2014?", "Quem e o vice campeao da Copa de 2014", "o vice campeao da Copa de 2014 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 2014 foi a Argentina."],
+    "context": [""]
+},
+{
+    "tag":"2014_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 2014?", "Quem e o terceiro colocado da Copa de 2014", "o terceiro colocado da Copa de 2014 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 2014 foi o Paises Baixos."],
+    "context": [""]
+},
+{
+    "tag":"2014_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 2014?", "Quem e o quarto colocado da Copa de 2014", "o quarto colocado da Copa de 2014 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 2014 foi a Brasil."],
+    "context": [""]
+},
+{
+  "tag":"2014_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 2014?", "Quantos gols teve na Copa de 2014?"],
+  "responses":["Na Copa do Mundo de 2014 foram marcados 171 gols."],
+  "context": [""]
+},
+{
+  "tag":"2014_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 2014?", "Quantos times jogaram a Copa de 2014?", "Quantos paises disputaram a Copa de 2014?"],
+  "responses":["A Copa do Mundo de 2014 foi disputada por 32 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"2014_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 2014?", "Quantas partidas foram jogadas na Copa de 2014"],
+  "responses":["Na Copa do Mundo de 2014 foram disputadas 64 partidas."],
+  "context": [""]
+},
+{
+  "tag":"2014_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 2014?", "Quanto foi o publico da Copa de 2014?"],
+  "responses":["A Copa do Mundo de 2014 teve 3 429 873 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"2014_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 2014?", "Quem e o artilheiro da Copa de 2014", "o artilheiro da Copa de 2014 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 2014 foi o Colombiano James Rodriguez com 6 gols."],
+  "context": [""]
+},
+{
+  "tag":"2014_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 2014?", "Quem e pais sede da Copa de 2014", "o pais que recebeu a Copa de 2014 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 2014 foi o Brasil."],
+  "context": [""]
+},
+{
+  "tag":"2014_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2014?", "Quem e goleiro menos vazado da Copa de 2014", "o goleiro menos vazado da Copa de 2014 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 2014 foi o Manuel Neuer"],
+  "context": [""]
+},
+  {
+    "tag":"2018_campeao",
+    "patterns":["Qual foi o campeao da Copa do Mundo de 2018?", "Quem e o campeao da Copa de 2018", "o campeao da Copa de 2018 foi que selecao?", "Quem ganhou em 2018?"],
+    "responses":["O campeao da Copa do Mundo de 2018 foi a Franca."],
+    "context": [""]
+},
+{
+    "tag":"2018_segundo",
+    "patterns":["Qual foi o vice campeao da Copa do Mundo de 2018?", "Quem e o vice campeao da Copa de 2018", "o vice campeao da Copa de 2018 foi que selecao?"],
+    "responses":["O vice campeao da Copa do Mundo de 2018 foi a Croacia."],
+    "context": [""]
+},
+{
+    "tag":"2018_terceiro",
+    "patterns":["Qual foi o terceiro colocado da Copa do Mundo de 2018?", "Quem e o terceiro colocado da Copa de 2018", "o terceiro colocado da Copa de 2018 foi que selecao?"],
+    "responses":["O terceiro colocado da Copa do Mundo de 2018 foi a Belgica."],
+    "context": [""]
+},
+{
+    "tag":"2018_quarto",
+    "patterns":["Qual foi o quarto colocado da Copa do Mundo de 2018?", "Quem e o quarto colocado da Copa de 2018", "o quarto colocado da Copa de 2018 foi que selecao?"],
+    "responses":["O quarto colocado da Copa do Mundo de 2018 foi a Inglaterra."],
+    "context": [""]
+},
+{
+  "tag":"2018_gols_marcados",
+  "patterns":["Quantos gols foram marcados na Copa do Mundo de 2018?", "Quantos gols teve na Copa de 2018?"],
+  "responses":["Na Copa do Mundo de 2018 foram marcados 169 gols."],
+  "context": [""]
+},
+{
+  "tag":"2018_selecoes",
+  "patterns":["Quantas selecoes jogaram a Copa do Mundo de 2018?", "Quantos times jogaram a Copa de 2018?", "Quantos paises disputaram a Copa de 2018?"],
+  "responses":["A Copa do Mundo de 2018 foi disputada por 32 selecoes."],
+  "context": [""]
+},
+{
+  "tag":"2018_partidas",
+  "patterns":["Quantas partidas foram disputadas na Copa do Mundo de 2018?", "Quantas partidas foram jogadas na Copa de 2018"],
+  "responses":["Na Copa do Mundo de 2018 foram disputadas 64 partidas."],
+  "context": [""]
+},
+{
+  "tag":"2018_publico",
+  "patterns":["Qual foi o publico total da Copa do Mundo de 2018?", "Quanto foi o publico da Copa de 2018?"],
+  "responses":["A Copa do Mundo de 2018 teve 3 031 768 espectadores em seus jogos."],
+  "context": [""]
+},
+{
+  "tag":"2018_artilheiro",
+  "patterns":["Qual foi o artilheiro da Copa do Mundo de 2018?", "Quem e o artilheiro da Copa de 2018", "o artilheiro da Copa de 2018 foi que jogador?"],
+  "responses":["O artilheiro da Copa do Mundo de 2018 foi o Ingles Harry Kane com 6 gols."],
+  "context": [""]
+},
+{
+  "tag":"2018_pais_sede",
+  "patterns":["Qual foi o pais sede da Copa do Mundo de 2018?", "Quem e pais sede da Copa de 2018", "o pais que recebeu a Copa de 2018 foi que selecao?"],
+  "responses":["O pais sede da Copa do Mundo de 2018 foi a Russia."],
+  "context": [""]
+},
+{
+  "tag":"2018_menosvazado",
+  "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2018?", "Quem e goleiro menos vazado da Copa de 2018", "o goleiro menos vazado da Copa de 2018 foi que goleiro?"],
+  "responses":["O goleiro menos vazado da Copa do Mundo de 2018 foi o Thibaut Courtois da Belgica"],
+  "context": [""]
+}
+
+]
+}
