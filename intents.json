@@ -1097,7 +1097,7 @@
   "patterns":["Qual foi o artilheiro da Copa do Mundo de 1998?", "Quem e o artilheiro da Copa de 1998", "o artilheiro da Copa de 1998 foi que jogador?"],
   "responses":["O artilheiro da Copa do Mundo de 1998 croata Davor Suker 6 gols."],
   "context": [""]
-  }
+  },
 
 {
       "tag":"2010_campeao",
@@ -1296,7 +1296,7 @@
   "patterns":["Qual foi o goleiro menos vazado da Copa do Mundo de 2018?", "Quem e goleiro menos vazado da Copa de 2018", "o goleiro menos vazado da Copa de 2018 foi que goleiro?"],
   "responses":["O goleiro menos vazado da Copa do Mundo de 2018 foi o Thibaut Courtois da Belgica"],
   "context": [""]
-   }
+   },
 {
   "tag":"2002_campeao",
   "patterns":["Qual foi o campeao da Copa do Mundo de 2002?", "Quem e o campeao da Copa de 2002", "o campeao da Copa de 2002 foi que selecao?", "Quem ganhou em 2002?"],
